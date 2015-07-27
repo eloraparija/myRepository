@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: kings
+Build-Jdk: 1.6.0_33
+Extension-Name: cucumber-reports
+Implementation-Title: cucumber-reports
+Implementation-Version: 0.0.19
+Group-Id: net.masterthought.jenkins
+Short-Name: cucumber-reports
+Long-Name: cucumber-reports
+Url: http://jenkins-ci.org/plugin/cucumber-reports/
+Plugin-Version: 0.0.19
+Hudson-Version: 1.424
+Jenkins-Version: 1.424
+Plugin-Developers: 
+

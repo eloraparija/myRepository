@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Verify all links" time="0.007" tests="5" errors="2" skipped="2" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\jdk1.7.0_25\jre\bin"/>
+    <property name="java.vm.version" value="23.25-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\ellora\cucumber"/>
+    <property name="java.runtime.version" value="1.7.0_25-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\jdk1.7.0_25\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\ELORA~1.PAR\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Program Files\Apache Maven 3.0.5\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\CA\SC\CAWIN\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\PROGRA~1\CA\SC\CAM\bin;C:\Program Files\CA\SC\Csam\SockAdapter\bin;C:\Program Files\CA\DSM\bin;C:\Program Files\CA\SC\CBB\;D:\jdk1.7.0_25\bin;D:\Program Files\Apache Maven 3.0.5\bin;C:\Program Files\TortoiseGit\bin;D:\adt-bundle-windows-x86-20140702\adt-bundle-windows-x86-20140702\sdk\tools;D:\adt-bundle-windows-x86-20140702\adt-bundle-windows-x86-20140702\sdk\platform-tools;C:\Program Files\nodejs\;D:\Sikuli\libs;D:\Program Files\Apache-ant-1.8.1\apache-ant-1.8.1\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\elora.parija\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\elora.parija"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="elora.parija"/>
+    <property name="java.class.path" value="D:\Program Files\Apache Maven 3.0.5\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\jdk1.7.0_25\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_25"/>
+    <property name="java.ext.dirs" value="D:\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\jdk1.7.0_25\jre\lib\resources.jar;D:\jdk1.7.0_25\jre\lib\rt.jar;D:\jdk1.7.0_25\jre\lib\sunrsasign.jar;D:\jdk1.7.0_25\jre\lib\jsse.jar;D:\jdk1.7.0_25\jre\lib\jce.jar;D:\jdk1.7.0_25\jre\lib\charsets.jar;D:\jdk1.7.0_25\jre\lib\jfr.jar;D:\jdk1.7.0_25\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Program Files\Apache Maven 3.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="Scenario: Verify all links" classname="Scenario: Verify all links" time="0"/>
+  <testcase name="Scenario: Verify all links" classname="Scenario: Verify all links" time="0">
+    <error message="timeout: Timed out receiving message from renderer: 6.444&#10;  (Session info: chrome=43.0.2357.134)&#10;  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 302.15 seconds&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;N4425&apos;, ip: &apos;172.23.4.124&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;&#10;Session ID: 134c976b3aa711cbd2c46a0fe5763bff&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ELORA~1.PAR\AppData\Local\Temp\scoped_dir57244_17812}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=43.0.2357.134, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 6.444
+  (Session info: chrome=43.0.2357.134)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 302.15 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'N4425', ip: '172.23.4.124', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 134c976b3aa711cbd2c46a0fe5763bff
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ELORA~1.PAR\AppData\Local\Temp\scoped_dir57244_17812}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=43.0.2357.134, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.cucumber.learning.EbayStep.i_go_to_ebay(EbayStep.java:34)
+	at ✽.Given I go to ebay website(src/test/resources/com/cucumber/learning/ebay.feature:4)
+</error>
+  </testcase>
+  <testcase name="Given I go to ebay website" classname="Scenario: Verify all links" time="0.007">
+    <error message="timeout: Timed out receiving message from renderer: 6.444&#10;  (Session info: chrome=43.0.2357.134)&#10;  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 302.15 seconds&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;N4425&apos;, ip: &apos;172.23.4.124&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;&#10;Session ID: 134c976b3aa711cbd2c46a0fe5763bff&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ELORA~1.PAR\AppData\Local\Temp\scoped_dir57244_17812}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=43.0.2357.134, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 6.444
+  (Session info: chrome=43.0.2357.134)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 302.15 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'N4425', ip: '172.23.4.124', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 134c976b3aa711cbd2c46a0fe5763bff
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ELORA~1.PAR\AppData\Local\Temp\scoped_dir57244_17812}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=43.0.2357.134, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.cucumber.learning.EbayStep.i_go_to_ebay(EbayStep.java:34)
+	at ✽.Given I go to ebay website(src/test/resources/com/cucumber/learning/ebay.feature:4)
+</error>
+  </testcase>
+  <testcase name="When I search for all links" classname="Scenario: Verify all links" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I should see the below links" classname="Scenario: Verify all links" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

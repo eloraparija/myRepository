@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: | http://eloraparija.com |
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 0.001 sec <<< FAILURE! - in | http://eloraparija.com |
+Given I go to http://eloraparija.com of gmail(| http://eloraparija.com |)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 0.001
+  (Session info: chrome=43.0.2357.134)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 301.37 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'N4425', ip: '172.23.4.124', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 505af896d83bdfffe7f4cda391f00949
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ELORA~1.PAR\AppData\Local\Temp\scoped_dir67964_17148}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=43.0.2357.134, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.cucumber.learning.websiteTest.gotoUrl(websiteTest.java:25)
+	at ?.Given I go to http://eloraparija.com of gmail(src/test/resources/com/cucumber/learning/Test.feature:8)
+
+| http://eloraparija.com |  Time elapsed: 0 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 0.001
+  (Session info: chrome=43.0.2357.134)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 301.37 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'N4425', ip: '172.23.4.124', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: 505af896d83bdfffe7f4cda391f00949
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ELORA~1.PAR\AppData\Local\Temp\scoped_dir67964_17148}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=43.0.2357.134, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.cucumber.learning.websiteTest.gotoUrl(websiteTest.java:25)
+	at ?.Given I go to http://eloraparija.com of gmail(src/test/resources/com/cucumber/learning/Test.feature:8)
+
